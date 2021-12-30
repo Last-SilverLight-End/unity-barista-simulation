@@ -9,7 +9,7 @@
 # Unity Text Assets
 *.meta unityyaml
 *.unity unityyaml
-*.asset unityyaml
+*.asset filter=lfs diff=lfs merge=lfs -text
 *.prefab filter=lfs diff=lfs merge=lfs -text
 *.mat filter=lfs diff=lfs merge=lfs -text
 *.anim unityyaml
